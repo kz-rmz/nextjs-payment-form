@@ -4,7 +4,7 @@ Used teporary user for MongoDB database, please repalace .env.local file data to
 
 ## Clone repository
 
-Clone repository 
+    gh repo clone kz-rmz/nextjs-payment-form
 
 ## Install npm dependencies
 
