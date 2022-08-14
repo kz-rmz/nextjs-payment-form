@@ -8,9 +8,9 @@ Clone repository
 
 ## Install npm dependencies
 
+    npm i
 
 ## Run local server
-
     npm run dev
 #### or
     yarn dev
