@@ -11,6 +11,7 @@ export default async function addPayment(
     }
     const newPaymentFormData = req.body;
     const { db } = await connectToDatabase();
+    // @ts-ignore
     const collection = db.collection('payment_info');
     collection.insertOne(newPaymentFormData);
     return res.status(200).end('Success!');
